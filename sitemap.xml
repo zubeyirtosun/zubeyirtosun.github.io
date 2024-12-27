@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://zubeyirtosun.github.io/posts/</loc>
-    <lastmod>2024-12-26T19:17:15+03:00</lastmod>
-  </url><url>
-    <loc>https://zubeyirtosun.github.io/posts/mypost/</loc>
-    <lastmod>2024-12-26T19:17:15+03:00</lastmod>
-  </url><url>
-    <loc>https://zubeyirtosun.github.io/</loc>
-    <lastmod>2024-12-26T19:17:15+03:00</lastmod>
-  </url><url>
-    <loc>https://zubeyirtosun.github.io/categories/</loc>
-  </url><url>
-    <loc>https://zubeyirtosun.github.io/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://zubeyirtosun.github.io/en/sitemap.xml</loc>
+    
+      <lastmod>2024-12-26T20:16:07+03:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://zubeyirtosun.github.io/it/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>

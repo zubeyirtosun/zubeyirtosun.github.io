@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zubeyir Tosunun Biricik Sitesi</title>
+    <title>Zübeyir Tosun&#39;un Biricik Sitesi</title>
     <link>https://zubeyirtosun.github.io/</link>
-    <description>Recent content on Zubeyir Tosunun Biricik Sitesi</description>
+    <description>Recent content on Zübeyir Tosun&#39;un Biricik Sitesi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tr-tr</language>
-    <lastBuildDate>Thu, 26 Dec 2024 19:17:15 +0300</lastBuildDate><atom:link href="https://zubeyirtosun.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 26 Dec 2024 20:16:07 +0300</lastBuildDate><atom:link href="https://zubeyirtosun.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mypost2</title>
+      <link>https://zubeyirtosun.github.io/posts/mypost2/</link>
+      <pubDate>Thu, 26 Dec 2024 20:16:07 +0300</pubDate>
+      
+      <guid>https://zubeyirtosun.github.io/posts/mypost2/</guid>
+      
+      <description>deneme blog yazısı</description>
+      
+    </item>
+    
     <item>
       <title>This is the post title</title>
       <link>https://zubeyirtosun.github.io/posts/mypost/</link>
