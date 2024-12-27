@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zubeyirtosun.github.io/posts/mypost2/</loc>
-    <lastmod>2024-12-26T20:16:07+03:00</lastmod>
-  </url><url>
     <loc>https://zubeyirtosun.github.io/posts/</loc>
     <lastmod>2024-12-26T20:16:07+03:00</lastmod>
   </url><url>
@@ -21,7 +18,7 @@
                 href="https://zubeyirtosun.github.io/"
                 />
   </url><url>
-    <loc>https://zubeyirtosun.github.io/posts/mypost/</loc>
+    <loc>https://zubeyirtosun.github.io/posts/hugotanitim/mypost/</loc>
     <lastmod>2024-12-26T19:17:15+03:00</lastmod>
   </url><url>
     <loc>https://zubeyirtosun.github.io/categories/</loc>

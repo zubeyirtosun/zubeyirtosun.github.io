@@ -1,32 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Zübeyir Tosun&#39;un Biricik Sitesi</title>
+    <title>Posts on Zübeyir Tosun</title>
     <link>https://zubeyirtosun.github.io/posts/</link>
-    <description>Recent content in Posts on Zübeyir Tosun&#39;un Biricik Sitesi</description>
+    <description>Recent content in Posts on Zübeyir Tosun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 26 Dec 2024 20:16:07 +0300</lastBuildDate><atom:link href="https://zubeyirtosun.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mypost2</title>
-      <link>https://zubeyirtosun.github.io/posts/mypost2/</link>
-      <pubDate>Thu, 26 Dec 2024 20:16:07 +0300</pubDate>
-      
-      <guid>https://zubeyirtosun.github.io/posts/mypost2/</guid>
-      
-      <description>deneme blog yazısı</description>
-      
-    </item>
-    
-    <item>
-      <title>This is the post title</title>
-      <link>https://zubeyirtosun.github.io/posts/mypost/</link>
+      <title>Hugo Tanitim</title>
+      <link>https://zubeyirtosun.github.io/posts/hugotanitim/mypost/</link>
       <pubDate>Thu, 26 Dec 2024 19:17:15 +0300</pubDate>
       
-      <guid>https://zubeyirtosun.github.io/posts/mypost/</guid>
+      <guid>https://zubeyirtosun.github.io/posts/hugotanitim/mypost/</guid>
       
-      <description>This is some content
-sudo apt update </description>
+      <description>Hugo nedir? Hugo, hızlı bir statik site oluşturucu (static site generator) yazılımıdır. Hugo, içerikleri Markdown formatında yazılmış dosyaları alır ve bunları HTML dosyalarına dönüştürerek bir web sitesi oluşturur. Genellikle bloglar, portföy siteleri, belgeler ve diğer içerik odaklı web siteleri için kullanılır.
+Hugo, özelleştirilebilir temalar ile birlikte gelir. Önceden hazırlanmış temaları kullanarak hızlıca bir site oluşturabilirsiniz.</description>
       
     </item>
     
