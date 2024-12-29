@@ -53,7 +53,7 @@
         },
         "datePublished": "2024-12-26",
         "description": "",
-        "wordCount":  175 ,
+        "wordCount":  262 ,
         "mainEntityOfPage": "True",
         "dateModified": "2024-12-26",
         "image": {
@@ -200,8 +200,20 @@ Ben linux kullandığımdan ona göre anlatacağım.</p>
 </span></span><span style="display:flex;"><span>sudo apt install hugo -y
 </span></span></code></pre></div><p>Github&rsquo;ta 2 tane yeni repo açacağız. Biri Blog sitesinin altyapısını oluşturan Hugo dosyalarının tamamını depolayacağımız repo, diğeri ise sadece blog sayfamızın kodunu içerecek ve yayınlayacak repo olacak. Burada şu kısım önemli, <strong>[blog-isminiz].github.io</strong> şeklinde yayınlayacağımız adres şeklinde veriyoruz.</p>
 <p>Sırasıyla repoları oluşturalım</p>
-<p><img alt="ilkrepo" src="/ilkrepo.png"></p>
-<!-- raw HTML omitted -->
+<p><img alt="ilkrepo" src="/imagesHugo/ilkrepo.png">
+bu tüm dosyaları tutacak depo. Burayı eklemeniz şart değil, aşağıda sadece site kısmını oluşturacak repo&rsquo;yu oluştursanız da gayet yeterli. Bu kısım biraz opsiyonel.</p>
+<p><img alt="ikinci repository resmi" src="/imagesHugo/ikincirepo.png">
+bu ise asıl site kısmını tutacak olan depo.</p>
+<p>bunları hallettikten sonra bilgisayarınızda bir klasör oluşturun veya bu repo&rsquo;ları &ldquo;git clone&rdquo; ile çekin tamamen size kalmış.</p>
+<p>Ben bir klasör oluşturarak ilerleyeceğim:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir blogSayfam
+</span></span><span style="display:flex;"><span>cd blogSayfam
+</span></span></code></pre></div><p>klasörün içine girdikten sonra hugo dosyalarını oluşturalım:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site <span style="color:#f92672">[</span>blog-dosyalarina-vereceginiz-ad<span style="color:#f92672">]</span>
+</span></span></code></pre></div><p>ve oluşturduğumuz dosyanın içine gidelim:
+<img alt="örnek Fotoğraf:" src="/imagesHugo/blogUc.png">
+bu tarz dosyalar içerisinde oluşmuş olacak.</p>
+<p>şimdi blog sitemize buradan bir tema bulalım: <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
 
             </div>
         </article></main>
