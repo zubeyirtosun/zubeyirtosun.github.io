@@ -94,9 +94,9 @@ Hugo&rsquo;yu, özelleştirilebilir temalar ile kurabiliyorsunuz. Önceden hazı
     <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
     
-    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/letter-z.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/letter-z.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/letter-z.png">
     <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
     <link rel="shortcut icon" href="/favicon.ico">
 
@@ -110,7 +110,7 @@ Hugo&rsquo;yu, özelleştirilebilir temalar ile kurabiliyorsunuz. Önceden hazı
 <meta name="theme-color" content="#434648">
 
     
-    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="/icons/letter-z.png">
 
     
     
@@ -179,7 +179,11 @@ stroke-linejoin="round" class="feather feather-home">
   <ul>
     <li>
       <ul>
-        <li></li>
+        <li>
+          <ul>
+            <li></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
@@ -196,8 +200,8 @@ Aynı bu okuduğunuz blog da hugo ile tasarlanıp, markdown ile yazımı yapıld
 <p>Kendi işletim sisteminize göre <a href="https://gohugo.io/installation/">buradan</a> kurabilirsiniz. <strong>Extended</strong> sürüm kurmanızı öneririm çünkü güzel temalarda çalışmak isterseniz bu gerekiyor.
 Ben linux kullandığımdan ona göre anlatacağım.</p>
 <p>debian tabanlı sistemler için:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update -y
-</span></span><span style="display:flex;"><span>sudo apt install hugo -y
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt update -y
+</span></span><span class="line"><span class="cl">sudo apt install hugo -y
 </span></span></code></pre></div><p>Github&rsquo;ta 2 tane yeni repo açacağız. Biri Blog sitesinin altyapısını oluşturan Hugo dosyalarının tamamını depolayacağımız repo, diğeri ise sadece blog sayfamızın kodunu içerecek ve yayınlayacak repo olacak. Burada şu kısım önemli, <strong>[blog-isminiz].github.io</strong> şeklinde yayınlayacağımız adres şeklinde veriyoruz.</p>
 <p>Sırasıyla repoları oluşturalım</p>
 <p><img alt="ilkrepo" src="/imagesHugo/ilkrepo.png">
@@ -206,10 +210,10 @@ bu tüm dosyaları tutacak depo. Burayı eklemeniz şart değil, aşağıda sade
 bu ise asıl site kısmını tutacak olan depo.</p>
 <p>bunları hallettikten sonra bilgisayarınızda bir klasör oluşturun veya bu repo&rsquo;ları &ldquo;git clone&rdquo; ile çekin tamamen size kalmış.</p>
 <p>Ben bir klasör oluşturarak ilerleyeceğim:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir blogSayfam
-</span></span><span style="display:flex;"><span>cd blogSayfam
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir blogSayfam
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> blogSayfam
 </span></span></code></pre></div><p>klasörün içine girdikten sonra hugo dosyalarını oluşturalım:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site <span style="color:#f92672">[</span>blog-dosyalarina-vereceginiz-ad<span style="color:#f92672">]</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new site <span class="o">[</span>blog-dosyalarina-vereceginiz-ad<span class="o">]</span>
 </span></span></code></pre></div><p>ve oluşturduğumuz dosyanın içine gidelim:
 <img alt="örnek Fotoğraf:" src="/imagesHugo/blogUc.png">
 bu tarz dosyalar içerisinde oluşmuş olacak.</p>
