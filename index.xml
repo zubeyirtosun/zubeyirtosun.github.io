@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zübeyir Tosun</title>
-    <link>https://zubeyirtosun.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Zübeyir Tosun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Dec 2024 15:03:44 +0300</lastBuildDate><atom:link href="https://zubeyirtosun.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Dec 2024 19:17:15 +0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo ile Github Blog</title>
-      <link>https://zubeyirtosun.github.io/posts/hugotanitim/mypost/</link>
+      <link>http://localhost:1313/posts/hugotanitim/mypost/</link>
       <pubDate>Thu, 26 Dec 2024 19:17:15 +0300</pubDate>
       
-      <guid>https://zubeyirtosun.github.io/posts/hugotanitim/mypost/</guid>
+      <guid>http://localhost:1313/posts/hugotanitim/mypost/</guid>
       
       <description>Hugo nedir? Hugo, hızlı bir statik site oluşturucu (static site generator) yazılımıdır. Hugo, içerikleri Markdown formatında yazılmış dosyaları alır ve bunları HTML dosyalarına dönüştürerek bir web sitesi oluşturur. Genellikle bloglar, portföy siteleri, belgeler ve diğer içerik odaklı web siteleri için kullanılır. Aynı bu okuduğunuz blog da hugo ile tasarlanıp, markdown ile yazımı yapıldı.
 Hugo&amp;rsquo;yu, özelleştirilebilir temalar ile kurabiliyorsunuz. Önceden hazırlanmış temaları kullanarak hızlıca bir site oluşturabilirsiniz. Tabii seçtiğiniz temaları da kendi içinde temayı yazan kişinin verdiği dokümantasyona göre düzenlemeniz gerek.</description>
