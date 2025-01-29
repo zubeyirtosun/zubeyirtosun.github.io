@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<html lang="en"><head><meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en" />
 <meta name="language" content="en" />
 
-  <link rel="alternate" hreflang="en" href="http://localhost:1313/posts/crowdsecmultiserversetup/z/" title="English" />
+  <link rel="alternate" hreflang="en" href="https://zubeyirtosun.github.io/posts/crowdsecmultiserversetup/z/" title="English" />
 
 
 
@@ -31,7 +31,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:article:published_time" content=2025-01-27T15:08:40&#43;0300 />
     <meta property="article:published_time" content=2025-01-27T15:08:40&#43;0300 />
-    <meta property="og:url" content="http://localhost:1313/posts/crowdsecmultiserversetup/z/" />
+    <meta property="og:url" content="https://zubeyirtosun.github.io/posts/crowdsecmultiserversetup/z/" />
 
     
     <meta property="og:article:author" content="Zübeyir Tosun" />
@@ -53,7 +53,7 @@
         },
         "datePublished": "2025-01-27",
         "description": "",
-        "wordCount":  264 ,
+        "wordCount":  319 ,
         "mainEntityOfPage": "True",
         "dateModified": "2025-01-27",
         "image": {
@@ -71,7 +71,7 @@
 <meta name="generator" content="Hugo 0.140.2">
 
     
-    <meta property="og:url" content="http://localhost:1313/posts/crowdsecmultiserversetup/z/">
+    <meta property="og:url" content="https://zubeyirtosun.github.io/posts/crowdsecmultiserversetup/z/">
   <meta property="og:site_name" content="Zübeyir Tosun">
   <meta property="og:title" content="CrowdSec Makineler Arasında Güvenli Bağlantı ve Firewall Yapılandırması">
   <meta property="og:description" content="CrowdSec İki Makine Arasında Kurulum ve Yapılandırma Çocuk Makine Yapılandırması LAPI (Local-API) Bağlantısı Kaydı:
@@ -93,7 +93,7 @@
 
     
 
-    <link rel="canonical" href="http://localhost:1313/posts/crowdsecmultiserversetup/z/">
+    <link rel="canonical" href="https://zubeyirtosun.github.io/posts/crowdsecmultiserversetup/z/">
     <link href="/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css" rel="stylesheet">
     <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
@@ -107,7 +107,7 @@
 
 
 
-<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+<link rel="manifest" href="https://zubeyirtosun.github.io/site.webmanifest">
 
 <meta name="msapplication-config" content="/browserconfig.xml">
 <meta name="msapplication-TileColor" content="#2d89ef">
@@ -118,14 +118,15 @@
 
     
     
+    
 </head>
 <body data-theme = "" class="notransition">
 
-<script src="/js/theme.js"></script>
+<script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
 
 <div class="navbar" role="navigation">
     <nav class="menu" aria-label="Main Navigation">
-        <a href="http://localhost:1313/" class="logo">
+        <a href="https://zubeyirtosun.github.io/" class="logo">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
 stroke-linejoin="round" class="feather feather-home">
@@ -185,7 +186,7 @@ stroke-linejoin="round" class="feather feather-home">
         <li><a href="#çocuk-makine-yapılandırması">Çocuk Makine Yapılandırması</a></li>
         <li><a href="#firewall-bağlantısı">Firewall Bağlantısı</a></li>
         <li><a href="#pf-packet-filter-yapılandırması">PF (Packet Filter) Yapılandırması</a></li>
-        <li><a href="#crowdsec-dashboard-kullanımı">Crowdsec Dashboard Kullanımı</a></li>
+        <li><a href="#crowdsecin-kendi-panelinin-kullanımı">Crowdsec&rsquo;in Kendi Panelinin Kullanımı</a></li>
         <li><a href="#uyarılar-ve-ekstra-bilgiler">Uyarılar ve Ekstra Bilgiler</a></li>
       </ul>
     </li>
@@ -253,14 +254,29 @@ WARN Run &#39;sudo systemctl reload crowdsec&#39; for the new configuration to b
 </ul>
 </li>
 </ol>
-<h2 id="crowdsec-dashboard-kullanımı">Crowdsec Dashboard Kullanımı</h2>
+<h2 id="crowdsecin-kendi-panelinin-kullanımı">Crowdsec&rsquo;in Kendi Panelinin Kullanımı</h2>
 <p>Herhangi crowdsec kurulu bir makineyi Crowdsec&rsquo;in kendi sunduğu web arayüzünde detaylı görüntüleyebiliriz. Ayrıca bu birkaç avantaj da sağlıyor sırayla açıklayacağım:</p>
 <ol start="5">
 <li><strong>Aradaki Bağlantıyı Sağlamak:</strong>
-Öncelikle <a href="https://app.crowdsec.net/security-engines">Crowdsec Security Engines</a>&lsquo;de
-Crowdsec kurulu olduğu makinede;
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cscli console enroll --name &lt;instance_name&gt; --tags &lt;tag_1&gt; --tags &lt;tag_2&gt; YOUR-ENROLL-KEY
+<ul>
+<li>
+<p>Öncelikle <a href="https://app.crowdsec.net/security-engines">Crowdsec Security Engines</a>&lsquo;de Crowdsec kurulu olduğu makinede aşağıdaki komut ile bağlantıyı sağlıyoruz.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cscli console enroll --name &lt;instance_name&gt; --tags &lt;tag_1&gt; --tags &lt;tag_2&gt; &lt;ENROLL-KEY&gt;
+</span></span></code></pre></div><p>Buradaki <strong>ENROLL-KEY</strong> <code>enroll command</code> kısmından alıyoruz.
+<img src="/imagesCrowdsec/crowdsecSecurityEngine.png" alt="Crowdsec Security Engine">
+<img src="/imagesCrowdsec/crowdsecEnrollCommand.png" alt="Crowdsec Enroll Command">
+kırmızı çizdiğim yer bizim anahtarımız. O sizde ne ise o kullanılacak.
+Ben bir tane makine attım ve Şu şekilde gelmiş oldu:
+örnek komutum:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cscli console enroll --name mintMakinesi --tags denemeTagi cm6ibltpg000nttgmf5saniq9
 </span></span></code></pre></div></li>
+<li>
+<p>şimdi bunu panelden onaylamamız lazım:
+<img src="/imagesCrowdsec/acceptingEnroll.png" alt="Onay sayfası">
+Bu işlemler sonunda artık makinemizi görebilmemiz lazım.</p>
+</li>
+</ul>
+</li>
 </ol>
 <h2 id="uyarılar-ve-ekstra-bilgiler">Uyarılar ve Ekstra Bilgiler</h2>
 <ol start="10">
@@ -319,7 +335,7 @@ Crowdsec kurulu olduğu makinede;
 
 
     
-    <script async src="http://localhost:1313/js/main.js" ></script>
+    <script src="https://zubeyirtosun.github.io/js/main.min.35f435a5d8eac613c52daa28d8af544a4512337d3e95236e4a4978417b8dcb2f.js" integrity="sha256-NfQ1pdjqxhPFLaoo2K9USkUSM30&#43;lSNuSkl4QXuNyy8="></script>
 
     
 
