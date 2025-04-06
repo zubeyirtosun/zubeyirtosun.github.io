@@ -8,52 +8,6 @@
     <language>en</language>
     <lastBuildDate>Sat, 05 Apr 2025 19:52:45 +0300</lastBuildDate><atom:link href="https://zubeyirtosun.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bilgi</title>
-      <link>https://zubeyirtosun.github.io/posts/bilgisayaraglariozet/bilgi/</link>
-      <pubDate>Sat, 05 Apr 2025 13:45:32 +0300</pubDate>
-      
-      <guid>https://zubeyirtosun.github.io/posts/bilgisayaraglariozet/bilgi/</guid>
-      
-      <description>&lt;p&gt;Burası derste işlenenlerin kendimce önemli görülen, yazmak istediğim, üşenmediği
-m kısımları bulundurmaktadır. Bir başkasına göre eksiklikler görülebilir ki ben
-bile görüyorum xd&lt;/p&gt;
-&lt;p&gt;tüm özetin esinlendiği ders kaynağı: &lt;a href=&#34;https://ozalpmurat.github.io/BilgisayarAglari-Kitap/02-Topolojiler/&#34;&gt;https://ozalpmurat.github.io/BilgisayarAglari-Kitap/02-Topolojiler/&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;nasıl-kullanılmalı&#34;&gt;nasıl kullanılmalı?&lt;/h1&gt;
-&lt;p&gt;En az bir kez asıl kitabı oku, anlamadığın yer varsa buraya bir bak, farklı şekilde yazmış olabilirim ya da direkt copy paste atmış da olabilirim. Bir kez okuduktan sonra tekrar niyetine buradan göz gezdirilebilir.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://ozalpmurat.github.io/BilgisayarAglari-Kitap/images/B02-Topolojiler.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;ağ-topolojileri&#34;&gt;Ağ Topolojileri&lt;/h3&gt;
-&lt;h4 id=&#34;doğrusal-bus-topoloji&#34;&gt;Doğrusal (Bus) Topoloji&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Herkes herkesin trafiğini görebilir kontrol yok.&lt;/li&gt;
-&lt;li&gt;Koaksiyel (televizyon) kablosu kullanılır.&lt;/li&gt;
-&lt;li&gt;Kablonun herhangi bir yerinde sorun olması tüm ağı etkiler.&lt;/li&gt;
-&lt;li&gt;Aynı anda iki bilgisayar veri gönderemez.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;halka-ring-topoloji&#34;&gt;Halka (Ring) Topoloji&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Doğrusal Topoloji&amp;rsquo;nin gelişmişi.&lt;/li&gt;
-&lt;li&gt;Jeton(token) var gideceği yeri biliyor. Herkes veriye ulaşmıyor.&lt;/li&gt;
-&lt;li&gt;Aynı anda iki bilgisayar veri gönderemez.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;yıldız-star-topoloji&#34;&gt;Yıldız (Star) Topoloji&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Klasik Switch özellikleri.&lt;/li&gt;
-&lt;li&gt;Ortada bir dağıtıcı cihaz var.&lt;/li&gt;
-&lt;li&gt;Arıza sadece bulunan bilgisayarı etkiliyor.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;örgü-mesh-topoloji&#34;&gt;Örgü (Mesh) Topoloji&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;O ona, bu buna bağlı.&lt;/li&gt;
-&lt;li&gt;Kablosuz ağlarda da yaygın olarak kullanılır.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;osi-modeli&#34;&gt;OSI Modeli&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://ozalpmurat.github.io/BilgisayarAglari-Kitap/images/B03-OSI_ve_TCPIP.jpg&#34; alt=&#34;&#34;&gt;
-&lt;strong&gt;OSI Modeli&lt;/strong&gt; → Ağ elemanlarının nasıl çalıştığını ve verinin iletimi sırasında hangi işlemlerden geçtiğini kavramak için kullanılan rehberdir.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
       <title>CrowdSec Makineler Arasında Güvenli Bağlantı ve Firewall Yapılandırması</title>
       <link>https://zubeyirtosun.github.io/posts/crowdsec/crowdsec/</link>
       <pubDate>Mon, 27 Jan 2025 02:48:59 +0300</pubDate>
